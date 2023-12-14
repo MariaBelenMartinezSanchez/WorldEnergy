@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;/*62.5% es de 16px (es el tamano normal, elmento base)*/
+}
+body{
+    background-image: url(../imagenes/fondo_gracias.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+.centrar-texto h1{
+    color: whitesmoke;
+    padding: 7rem;
+    font-size: 10rem;
+    background-color: rgba(0, 0, 0, .5) ;
+
+}
+/* CONTROL DE DIMENSION IMAGENES */
+img{
+    max-width: 100%;
+}
+div img{
+    width: 12rem;
+    justify-content: center center;
+    background-color: whitesmoke;
+    border-radius: 9rem;
+    padding: -2rem;
+    margin: 1rem;
+    border-width: 0.5rem;
+}
+div img:hover{
+    background-color: rgba(0, 0, 0, .5) ;
+}
+
+.boton{        
+    font-size: 4rem;
+    padding:1.5rem;
+    border-radius: 2rem;
+    justify-content:center;
+}
+
+.boton-principal{
+    background-color: green;
+    color: yellowgreen;  
+    text-shadow: -0.1rem -0.1rem 0.1rem black; 
+    border-style: groove;
+    border-width: 0.3rem;   
+    text-decoration: none; 
+    
+}
+.boton-principal:hover{    
+    background-color: yellowgreen;
+    color: white;
+}
